@@ -1,4 +1,142 @@
+
 .header {
-  
+  background-color: #121212;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 375px) {
+    .header {
+        width: 375px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .header {
+        width: 768px;
+    }
+}
+.container {
+width: 100%;
+padding: 0 20px;
+margin: 0 auto;
+box-sizing: border-box;
 }
 
+@media screen and (min-width: 375px){
+    .container {
+        width: 375px;
+    }
+}
+@media screen and (min-width: 768px){
+    .container {
+        width: 768px;
+        padding: 0 32px;
+    }
+}
+
+.header-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+@media screen and (min-width: 768px) {
+    .header-container {
+        display: flex;
+        align-items: center;
+    }
+}
+.header-icon {
+height: 50px;
+display: flex;
+text-align: center;
+align-items: center;
+border-radius: 12px;
+border: 1px solid rgba(255, 255, 255, 0.20);
+box-sizing: border-box;
+
+padding: 15px 20px;
+}
+@media screen and (min-width: 768px) {
+    .header-icon {
+        margin-right: 14px;
+        width: 504px;
+        height: 60px;
+    }
+}
+
+.header-icon-first {
+    fill: #FFFFFF;
+    padding-right: 90px;
+}
+@media screen and (min-width: 768px) {
+    .header-icon-first {
+        padding-right: 301px;
+    }
+}
+.header-icon-camera {
+    background-color: #1D1D1D;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 14px;
+
+}
+@media screen and (min-width: 768px) {
+    .header-icon-camera {
+        display: none;
+    }
+}
+   
+
+.header-icon-second {
+    fill: #BEA69E;
+}
+
+.header-icon-btn {
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 32px;
+    height: 22px;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+.header-icon-third {
+    fill: #FFFFFF;
+    stroke: #FFFFFF;
+}
+.header-tablet-btn {
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .header-tablet-btn {
+        box-sizing: border-box;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        background-color: #FFF;
+        width: 186px;
+        height: 60px;
+    }
+}
+@media screen and (min-width: 768px) {
+    .tablet-btn {
+        background-color: transparent;
+        color: #121212;
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.5;
+        text-transform: uppercase;
+        border: none;
+
+        text-align: center;
+        width: 186px;
+        height: 60px;
+
+    }
+}
