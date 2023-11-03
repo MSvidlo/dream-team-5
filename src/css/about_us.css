@@ -28,7 +28,7 @@
   color: var(--brown, #bea69e);
   flex-shrink: 0;
   margin: 0;
-  padding: 10px 15px;
+  padding: 20px;
   min-width: 100%;
   white-space: nowrap;
   animation-name: marqueeLine;
@@ -67,6 +67,7 @@
   color: var(--brown, #bea69e);
 }
 .about-us-picture {
+  max-width: 210px;
 }
 .about-us-pic-and-par {
   display: flex;
@@ -87,12 +88,21 @@
   max-width: 335px;
 }
 @media screen and (min-width: 768px) {
+  .runline {
+    font-size: 40px;
+  }
+  .runline-line {
+    padding: 24px;
+  }
   .about-us-container {
     padding: 100px 32px;
     gap: 50px;
   }
   .about-us-title {
     font-size: 48px;
+  }
+  .about-us-picture {
+    max-width: 340px;
   }
   .about-us-pic-and-par {
     gap: 50px;
@@ -107,8 +117,14 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .runline {
+    font-size: 59px;
+  }
   .about-us-container {
     padding: 150px 100px;
+  }
+  .about-us-picture {
+    max-width: 260px;
   }
 
   .about-us-pic-and-par {
@@ -123,6 +139,10 @@
   }
 }
 @media screen and (min-width: 1440px) {
+  .about-us-picture {
+    max-width: 240px;
+  }
+
   .about-us-pic-and-par {
     gap: 50px;
   }
