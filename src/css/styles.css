@@ -28,6 +28,6 @@
 .container{
   
 }
-body{ background-color: rgba(18, 18, 18, 0.40);}
+body{ background-color:var(--black, #121212);}
 
   
