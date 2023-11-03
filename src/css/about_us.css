@@ -67,7 +67,7 @@
   color: var(--brown, #bea69e);
 }
 .about-us-picture {
-  max-width: 210px;
+  width: 210px;
 }
 .about-us-pic-and-par {
   display: flex;
@@ -154,3 +154,4 @@
     max-width: 276px;
   }
 }
+
