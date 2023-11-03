@@ -1,18 +1,20 @@
 <footer class="footer">
   <div class="container footer-container">
     <div class="footer-logo">
-      <a href="" target="_blank" class="footer-link">Focus.Frame</a>
+      <svg width="127" height="20" class="header-icon-first">
+        <use href="./image/icons.svg#icon-logo"></use>
+      </svg>
       <div class="footer-contacts">
         <ul class="footer-contacts-list">
           <li class="footer-contacts-item">
-            <!-- <a href="tel:+380665438912" class="footer-adress-phone"
-                >UK: +38 066 543 8912</a
-            > -->
-            <p class="contacts-phone">UK: +38 066 543 8912</p>
+            <a href="tel:+380665438912" class="footer-adress-phone"
+              >UK: +38 066 543 8912</a
+            >
           </li>
           <li class="footer-contacts-item">
-            <!-- <a href="" target="_blank" class="footer-adress-city">Ukraine, Kyiv</a> -->
-            <p class="contacts-city">Ukraine, Kyiv</p>
+            <a href="" target="_blank" class="footer-adress-city"
+              >Ukraine, Kyiv</a
+            >
           </li>
         </ul>
       </div>
@@ -21,13 +23,13 @@
       <div class="footer-social">
         <ul class="footer-social-list">
           <li class="footer-social-item">
-            <a href="" class="footer-social-link">Instagram</a>
+            <a href="" target="_blank" class="footer-social-link">Instagram</a>
           </li>
           <li class="team-soc-item">
-            <a href="" class="footer-social-link">Facebook</a>
+            <a href="" target="_blank" class="footer-social-link">Facebook</a>
           </li>
           <li class="team-soc-item">
-            <a href="" class="footer-social-link">Youtube</a>
+            <a href="" target="_blank" class="footer-social-link">Youtube</a>
           </li>
         </ul>
       </div>
@@ -59,15 +61,16 @@
             name="footer-input"
             class="footer-input"
             placeholder="Enter your email"
+            pattern="[a-z]+[a-z0-9._]+@gmail.com"
             aria-label="email input"
           />
         </label>
         <div class="footer-button-form">
           <button type="submit" class="footer-btn">
             GO
-            <svg class="icon-btn-form" width="27" height="24">
+            <!-- <svg class="icon-btn-form" width="27" height="24">
               <use href=""></use>
-            </svg>
+            </svg> -->
           </button>
         </div>
       </form>
