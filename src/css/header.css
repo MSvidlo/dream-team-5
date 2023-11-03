@@ -1,24 +1,79 @@
+.collaboration {
+    background-image: url(../image/header/graphic-mob.png);
+    background-color: #121212;
+    background-size: cover;
+}
+@media screen and (min-width: 375px) {
+    .collaboration {
+        background-image: url(../image/header/graphic-mob.png);
+    }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 375px),
+screen and (min-resolution: 192dpi) and (min-width: 375px),
+screen and (min-resolution: 2dppx) and (min-width: 375px) {
+    .collaboration {
+        background-image: url(../image/header/graphic-mob@2x.png)
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .collaboration {
+        background-image: url(../image/header/graphic-tab.png);
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
+screen and (min-resolution: 192dpi) and (min-width: 768px),
+screen and (min-resolution: 2dppx) and (min-width: 768px) {
+    .collaboration {
+        background-image: url(../image/header/graphic-tab@2x.png)
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .collaboration {
+        background-image: url(../image/header/graphic-decs.png);
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1280px),
+screen and (min-resolution: 192dpi) and (min-width: 1280px),
+screen and (min-resolution: 2dppx) and (min-width: 1280px) {
+    .collaboration {
+        background-image: url(../image/header/graphic-decs@2x.png)
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .collaboration {
+        background-image: url(../image/header/graphic-max.png);
+    }
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1440px),
+screen and (min-resolution: 192dpi) and (min-width: 1440px),
+screen and (min-resolution: 2dppx) and (min-width: 1440px) {
+    .collaboration {
+        background-image: url(../image/header/graphic-max@2x.png)
+    }
+}
 
 .header {
-  background-color: #121212;
   box-sizing: border-box;
   margin: 0 auto;
 }
-@media screen and (min-width: 375px) {
-    .header {
-        width: 375px;
-    }
-}
+
 @media screen and (min-width: 768px) {
     .header {
         width: 768px;
     }
 }
+
 @media screen and (min-width: 1280px) {
     .header {
         width: 1280px;
     }
 }
+
 @media screen and (min-width: 1440px) {
     .header {
         width: 1440px;
@@ -27,9 +82,8 @@
 
 .container {
 width: 100%;
-padding: 0 20px;
 margin: 0 auto;
-box-sizing: border-box;
+
 }
 
 @media screen and (min-width: 375px){
@@ -37,18 +91,26 @@ box-sizing: border-box;
         width: 375px;
     }
 }
+
+
 @media screen and (min-width: 768px){
     .container {
         width: 768px;
         padding: 0 32px;
     }
 }
+
+
+
 @media screen and (min-width: 1280px) {
     .container {
         width: 1280px;
         padding: 0 100px;
     }
 }
+
+
+
 @media screen and (min-width: 1440px) {
     .container {
         width: 1440px;
@@ -56,8 +118,7 @@ box-sizing: border-box;
 }
 
 .header-container {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  
 
 }
 @media screen and (min-width: 768px) {
@@ -223,7 +284,7 @@ display: none;
 }
 @media screen and (min-width: 1280px) {
     .header-tablet-btn {
-        width: 238px;
+        max-width: 238px;
     }
 }
 
