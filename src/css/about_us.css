@@ -90,6 +90,7 @@
 @media screen and (min-width: 768px) {
   .runline {
     font-size: 40px;
+    font-family: DM Sans;
   }
   .runline-line {
     padding: 24px;
