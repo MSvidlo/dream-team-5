@@ -99,6 +99,9 @@
     padding: 100px 32px;
     gap: 50px;
   }
+  .container{
+    padding: 90px 32px;
+  }
   .about-us-title {
     font-size: 48px;
   }
@@ -122,9 +125,11 @@
   .runline {
     font-size: 59px;
   }
+  
   .about-us-container {
     padding: 150px 100px;
   }
+
   .about-us-picture {
     max-width: 260px;
   }
