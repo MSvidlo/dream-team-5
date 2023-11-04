@@ -51,7 +51,7 @@
 .about-us-container {
   background-color: var(--black, #121212);
   min-width: 100%;
-  padding: 80px 20px;
+  padding: 80px 0px;
   display: flex;
   flex-direction: column;
   gap: 40px;
@@ -96,18 +96,18 @@
     padding: 24px;
   }
   .about-us-container {
-    padding: 100px 32px;
+    padding: 100px 12px;
     gap: 50px;
   }
-  .container{
+  .container {
     padding: 90px 32px;
   }
   .about-us-title {
     font-size: 48px;
   }
-    .about-us-ph{}
+
   .about-us-picture {
-    max-width: 340px;
+    width: 340px;
   }
   .about-us-pic-and-par {
     gap: 50px;
@@ -125,13 +125,13 @@
   .runline {
     font-size: 59px;
   }
-  
+
   .about-us-container {
-    padding: 150px 100px;
+    padding: 150px 80px;
   }
 
   .about-us-picture {
-    max-width: 260px;
+    width: 260px;
   }
 
   .about-us-pic-and-par {
@@ -147,7 +147,7 @@
 }
 @media screen and (min-width: 1440px) {
   .about-us-picture {
-    max-width: 240px;
+    width: 240px;
   }
 
   .about-us-pic-and-par {
@@ -160,4 +160,3 @@
     max-width: 276px;
   }
 }
-
