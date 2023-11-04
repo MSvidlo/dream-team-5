@@ -60,17 +60,21 @@ screen and (min-resolution: 2dppx) and (min-width: 1440px) {
 .header {
   box-sizing: border-box;
   margin: 0 auto;
+padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
     .header {
         width: 768px;
+        padding-bottom: 40px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .header {
         width: 1280px;
+        padding-bottom: 80px;
     }
 }
 
@@ -83,42 +87,38 @@ screen and (min-resolution: 2dppx) and (min-width: 1440px) {
 .container {
 width: 100%;
 margin: 0 auto;
-
 }
 
 @media screen and (min-width: 375px){
     .container {
-        width: 100%;
+        max-width: 335px;
+       
     }
 }
 
-
 @media screen and (min-width: 768px){
     .container {
-        width: 100%;
+        max-width: 704px;
         padding: 0 32px;
     }
 }
 
-
-
 @media screen and (min-width: 1280px) {
     .container {
-        width: 100%;
+        max-width: 1080px;
         padding: 0 100px;
     }
 }
 
 
-
 @media screen and (min-width: 1440px) {
     .container {
-        width: 100%;
+        max-width: 1240px;
     }
 }
 
 .header-container {
-  
+ 
 
 }
 @media screen and (min-width: 768px) {
