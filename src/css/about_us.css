@@ -67,7 +67,6 @@
   color: var(--brown, #bea69e);
 }
 .about-us-picture {
-  width: 210px;
 }
 .about-us-pic-and-par {
   display: flex;
@@ -107,7 +106,6 @@
   }
 
   .about-us-picture {
-    width: 340px;
   }
   .about-us-pic-and-par {
     gap: 50px;
@@ -131,7 +129,6 @@
   }
 
   .about-us-picture {
-    width: 260px;
   }
 
   .about-us-pic-and-par {
@@ -147,7 +144,6 @@
 }
 @media screen and (min-width: 1440px) {
   .about-us-picture {
-    width: 240px;
   }
 
   .about-us-pic-and-par {
