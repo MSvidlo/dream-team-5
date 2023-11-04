@@ -30,7 +30,7 @@
 
 .sign-up-text {
     margin-bottom: 40px;
-    width: 295px;
+    width: 100%;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.28;
@@ -41,7 +41,6 @@
     display: block;
     box-sizing: border-box;
     margin-bottom: 8px;
-    /* height: 46px; */
     outline: none;
     transition: var(--border-color-250ms);
 }
@@ -128,6 +127,10 @@
         max-width: 335px;
         margin: 0 auto;
     }
+
+    .sign-up-text {
+        width: 295px;
+    }
 }
 
 @media screen and (min-width:768px) {
@@ -196,35 +199,51 @@
     .photos-container {
         display: flex;
         gap: 20px;
-        width: 540px;
-        height: 540px;
     }
 
     .photo-small-wrapper {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
         margin-top: auto;
+        margin-bottom: 40px;
         width: 180px;
         height: 288px;
         border-radius: 1000px;
-        background: var(--white);
-    }
-
-    .photo-small {
-        margin: 0 auto;
-        width: 150px;
-        height: 142px;
-        background-image: url(./img/camera-small.png);
+        background: var(--brown);
+        background-image: url(../image/sign-up/photo-small.png);
         background-repeat: no-repeat;
-        background-position: right;
-        background-size: auto;
+        background-position: -40px 76px;
     }
 
-    .photo-large {
+    .photo-large-wrapper {
+        margin-top: auto;
+        margin-bottom: 40px;
         width: 340px;
         height: 540px;
         border-radius: 1000px;
         background-color: var(--light-black);
+        background-image: url(../image/sign-up/photo-large.png);
+        background-repeat: no-repeat;
+        background-position: 50px 156px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .sign-up-container {
+        max-width: 1240px;
+        gap: 200px;
+    }
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .photo-small-wrapper {
+        background-image: url(../image/sign-up/photo-small-2x.png);
+        background-size: contain;
+        background-position: -20px 76px;
+    }
+
+    .photo-large-wrapper {
+        background-image: url(../image/sign-up/photo-large-2x.png);
+        background-size: 254px 313px;
     }
 }
