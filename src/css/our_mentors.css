@@ -1,3 +1,208 @@
-.our_mentors{
+    img {
+
+    display: block;
+    max-width: 100%;
+    height: auto;
     
-}
+      }
+      
+    .foto {
+
+    padding: 0;
+    margin: 0;
+    border-radius: 200px 200px 200px 200px;
+          
+      }
+      
+    .mentor {
+      background-color: var(--black);
+      color: var(--white);
+      /* color variables */
+      --brown: #BEA69E;
+      --black: #121212;
+      --light-black: #1D1D1D;
+      --white: #FFFFFF;
+      }
+      
+    .section-mentor-container{
+    
+        padding: 0px  0px 80px 0px;
+        min-width: 100%;
+          
+      }
+      
+    .section-mentor-title{
+      margin-bottom: 40px;
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 1.14;
+      letter-spacing: -0.04em;
+     
+      }
+      
+    .mentor-title{
+    
+      color: var(--brown)
+    
+    }
+      
+    .mentor-list{
+    
+    display: flex;
+    gap: 40px;
+    flex-wrap:wrap;
+    
+    }
+      
+    .mentor-card{
+    display: flex;
+    width: 185px;
+    height: 240px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 0;
+    margin: 0;
+    
+    }
+      
+    .mentor-name-experience{
+    padding-top: 16px; 
+          
+    }
+      
+    .mentor-name{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 0;
+    
+    }
+      
+    .mentor-experience{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    letter-spacing: -0.24px;
+    margin: 0;
+    padding: 4px 0 0 0;
+    
+      }
+      
+    @media screen and (min-width:375px) {
+    
+      .mentor {
+        padding: 0;
+    }
+    
+    .section-mentor-container {
+        max-width: 335px;
+        margin: 0 auto;
+    }
+    
+    .mentor-list{
+    
+        display: flex;
+        gap: 40px;
+        flex-wrap:wrap;
+        justify-content: center;
+    
+      }
+    }
+        
+      
+    
+    @media screen and (min-width:768px) {
+    
+    .section-mentor-container{
+    padding: 0px  0px 100px 0px;
+        
+    }
+
+    .mentor-list{
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    }
+                         
+    .mentor-cards{         
+        width: calc((100% - 194px) / 4);
+    }
+
+    .mentor-name{
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    }
+
+    .mentor-experience{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.28px;
+    padding: 4px 0 0 0;
+
+    }
+    
+    .section-mentor-title{
+    
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px; /* 112.5% */
+    letter-spacing: -1.92px;
+       
+    }
+        
+    .mentor-title{
+    color: var(--brown);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: -1.92px;
+      }}
+           
+    @media screen and (min-width:1280px) {
+    
+    .mentor-cards{
+    width: calc((100% - 196px) / 4);  
+    }
+    
+    .container {
+    width: 1280px;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .mentor-list{
+    display: flex;
+    gap: 100px;
+    padding: 0;
+    margin: 0;
+    }
+           
+    .section-mentor-container{
+    padding: 0px  0px 150px 0px;
+                   
+    }
+
+    }
+           
+    @media screen and (min-width:1440px) {}
