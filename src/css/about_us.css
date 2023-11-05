@@ -120,7 +120,8 @@
     padding: 24px;
   }
   .about-us-container {
-    padding: 100px 12px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     gap: 50px;
   }
 
