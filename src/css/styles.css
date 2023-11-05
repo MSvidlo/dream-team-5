@@ -25,15 +25,27 @@
     -webkit-text-size-adjust: 100%;
     
   }
-
+ @media screen and (min-width:375px){
 .container{
   width: 100%;
   padding: 0 20px;
-  margin: 0 auto;
+  margin: 0 auto;}
   /* display: flex;
   justify-content: center; */
-  
  
+}
+
+@media screen and (min-width:768px){
+.container{
+  padding:0 32px;
+}
+
+}
+
+@media screen and (min-width:1280px){
+.container {
+    padding: 0 100px;
+  }
 }
 body{ 
   font-family: DM Sans, sans-serif;
