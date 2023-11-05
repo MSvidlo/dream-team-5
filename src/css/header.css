@@ -1,6 +1,6 @@
 .collaboration {
     background-image: url(../image/header/graphic-mob.png);
-    background-color: #121212;
+    background-color: var(--black);
     background-size: cover;
 }
 @media screen and (min-width: 375px) {
@@ -66,27 +66,30 @@ padding-top: 20px;
 
 @media screen and (min-width: 768px) {
     .header {
-        width: 768px;
+        max-width: 768px;
         padding-bottom: 40px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .header {
-        width: 1280px;
+        max-width: 1080px;
         padding-bottom: 80px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .header {
-        width: 1440px;
+        max-width: 1240px;
     }
 }
 
 .container {
 width: 100%;
 margin: 0 auto;
+box-sizing: border-box;
+
+padding: initial;
 }
 
 @media screen and (min-width: 375px){
@@ -106,10 +109,8 @@ margin: 0 auto;
 @media screen and (min-width: 1280px) {
     .container {
         max-width: 1080px;
-        padding: 0 100px;
     }
 }
-
 
 @media screen and (min-width: 1440px) {
     .container {
@@ -118,18 +119,28 @@ margin: 0 auto;
 }
 
 .header-container {
- 
-
+    box-sizing: border-box;
 }
 @media screen and (min-width: 768px) {
     .header-container {
         display: flex;
         align-items: center;
+        gap: 14px;
+        min-width: 100%;
     }
 }
 @media screen and (min-width: 1280px) {
     .header-container {
         padding-bottom: 80px;
+        gap: 20px;
+
+        min-width: 100%;
+            padding: 0 100px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .header-container {
+        min-width: 100%;
     }
 }
 
@@ -141,33 +152,31 @@ align-items: center;
 border-radius: 12px;
 border: 1px solid rgba(255, 255, 255, 0.20);
 box-sizing: border-box;
-background-color: var(--black, #121212);;
+background-color: var(--black, #121212);
 
 padding: 15px 20px;
 }
 @media screen and (min-width: 768px) {
     .header-icon {
-        margin-right: 14px;
-        width: 504px;
+        width: 100%;
         height: 60px;
     }
 }
 @media screen and (min-width: 1280px) {
     .header-icon {
-        margin-right: 20px;
-        width: 822px;
+        width: 100%;
 
         padding: 21px 50px;
     }
 }
 @media screen and (min-width: 1440px) {
     .header-icon {
-        width: 982px;
+        width: 100%;
     }
 }
 
 .header-icon-first {
-    fill: #FFFFFF;
+    fill: var(--white);
     padding-right: 90px;
 }
 @media screen and (min-width: 768px) {
@@ -208,7 +217,7 @@ display: none;
 
 @media screen and (min-width: 1280px) {
     .header-nav-link {
-        color: #FFF;
+        color: var(--white);
         font-family: DM Sans;
         font-size: 14px;
         font-style: normal;
@@ -219,11 +228,11 @@ display: none;
 }
 .header-nav-link:hover,
 .header-nav-link:focus {
-    color: #BEA69E;
+    color: var(--brown);
 }
 
 .header-icon-camera {
-    background-color: #1D1D1D;
+    background-color: var(--light-black);
     width: 32px;
     height: 32px;
     border-radius: 50%;
@@ -247,7 +256,7 @@ display: none;
 
 .header-icon-second:hover,
 .header-icon-second:focus {
-    fill: #BEA69E;
+    fill: var(--brown);
 }
 
 .header-icon-btn {
@@ -260,8 +269,8 @@ display: none;
     box-sizing: border-box;
 }
 .header-icon-third {
-    fill: #FFFFFF;
-    stroke: #FFFFFF;
+    fill: var(--white);
+    stroke: var(--white);
 }
 @media screen and (min-width: 1280px) {
     .header-icon-btn {
@@ -278,21 +287,21 @@ display: none;
         justify-content: center;
         align-items: center;
         border-radius: 12px;
-        background-color: #FFF;
+        background-color: var(--white);
         width: 186px;
         height: 60px;
     }
 }
 @media screen and (min-width: 1280px) {
     .header-tablet-btn {
-        max-width: 238px;
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 768px) {
     .tablet-btn {
         background-color: transparent;
-        color: #121212;
+        color: var(--black);
         font-family: DM Sans;
         font-size: 18px;
         font-style: normal;
@@ -304,14 +313,20 @@ display: none;
         text-align: center;
         width: 186px;
         height: 60px;
+        box-sizing: border-box;
     }
 }
 
 @media screen and (min-width: 768px) {
     .tablet-btn:hover,
     .tablet-btn:focus {
-        background-color: #1D1D1D;
-        color: #BEA69E;
+        background-color: var(--light-black);
+        color: var(--brown);
         border-radius: 12px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .tablet-btn {
+        width: 238px;
     }
 }
