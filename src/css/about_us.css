@@ -80,6 +80,8 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .about-us-picture {
+    height: 418px;
+    width: 670px;
     background-image: url(../image/about-us/about-us-mob-2x.png);
   }
 }
@@ -138,6 +140,8 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .about-us-picture {
+      width: 1408px;
+      height: 680px;
       background-image: url(../image/about-us/about-us-tab-2x.png);
     }
   }
@@ -172,6 +176,8 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .about-us-picture {
+      width: 976px;
+      height: 520px;
       background-image: url(../image/about-us/about-us-desk1200-2x.png);
     }
   }
@@ -191,9 +197,6 @@
   }
 }
 @media screen and (min-width: 1440px) {
-  .about-us-picture {
-  }
-
   .about-us-pic-and-par {
     gap: 50px;
   }
@@ -206,6 +209,8 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .about-us-picture {
+      width: 1120px;
+      height: 480px;
       background-image: url(../image/about-us/about-us-desk1440-2x.png);
     }
   }
