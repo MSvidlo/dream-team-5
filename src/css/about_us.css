@@ -68,9 +68,21 @@
 }
 
 .about-us-picture {
-  
-    }
+  height: 209px;
+  width: 335px;
 
+  border-radius: 1000px;
+  background-color: var(--light-black);
+  background-image: url(../image/about-us/about-us-mob.png);
+  background-repeat: no-repeat;
+}
+@media screen and (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .about-us-picture {
+    background-image: url(../image/about-us/about-us-mob-2x.png);
+  }
+}
 .about-us-pic-and-par {
   display: flex;
   flex-direction: column;
@@ -114,11 +126,20 @@
     font-size: 48px;
   }
 
-  .about-us-picture {
-    height: 335px;
-  }
   .about-us-pic-and-par {
     gap: 50px;
+  }
+  .about-us-picture {
+    width: 704px;
+    height: 340px;
+    background-image: url(../image/about-us/about-us-tab.png);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .about-us-picture {
+      background-image: url(../image/about-us/about-us-tab-2x.png);
+    }
   }
   .about-us-paragraphs {
     flex-direction: row;
@@ -133,7 +154,7 @@
     font-size: 16px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .runline {
     font-size: 59px;
   }
@@ -143,6 +164,16 @@
   }
 
   .about-us-picture {
+    width: 488px;
+    height: 260px;
+    background-image: url(../image/about-us/about-us-desk1200.png);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .about-us-picture {
+      background-image: url(../image/about-us/about-us-desk1200-2x.png);
+    }
   }
 
   .about-us-pic-and-par {
@@ -165,6 +196,18 @@
 
   .about-us-pic-and-par {
     gap: 50px;
+  }
+  .about-us-picture {
+    width: 560px;
+    height: 240px;
+    background-image: url(../image/about-us/about-us-desk1440.png);
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .about-us-picture {
+      background-image: url(../image/about-us/about-us-desk1440-2x.png);
+    }
   }
   .about-us-paragraphs {
     gap: 40px;
