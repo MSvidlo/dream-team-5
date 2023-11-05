@@ -3,11 +3,12 @@
 
 }
 .ourcourses-section {
-    width: 335px ;
-    height: 1398px;
-    top: 1809px;
-    left: 20px;
-    
+    display: flex;
+    width: 1240px;
+    height: 452px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
 }
 
 
@@ -44,10 +45,18 @@
 
 }
 .ourcourses-item {
+
 }
 
-.ourcourses-rectangle {
 
+.ourcourses-rectangle {
+    width: 335px;
+    height: 398px;
+    flex-shrink: 0;
+
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: linear-gradient(180deg, #060707 0%, #1D1D1D 100%);
 }
 
 .rectangle-icon {
@@ -55,6 +64,7 @@
     justify-content: center;
     align-items: flex-start;
     gap: 233px;
+    fill: #1D1D1D;
 }
 .ourcourses-subtitle {
 
