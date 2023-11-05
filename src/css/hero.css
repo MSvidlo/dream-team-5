@@ -4,6 +4,7 @@
   background-image: url('../image/header/graphic-mob.png');
   background-size: cover;
 }
+/* bg */
 @media screen and (min-width: 375px) {
   .hero {
     background-image: url('../image/header/graphic-mob@2x.png');
