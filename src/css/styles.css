@@ -23,6 +23,7 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
+    
   }
 
 .container{
@@ -34,6 +35,16 @@
   
  
 }
-body{ background-color:var(--black, #121212);}
+body{ 
+  font-family: DM Sans, sans-serif;
+  --brown: #bea69e;
+  --black: #121212;
+  --light-black: #1d1d1d;
+  --white: #ffffff;
+  /* transition variables */
+  --color-250ms: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --background-color-250ms: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --border-color-250ms: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: var(--black, #121212);}
 
   

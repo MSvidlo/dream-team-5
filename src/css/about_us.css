@@ -66,8 +66,11 @@
 .about-us-title-span {
   color: var(--brown, #bea69e);
 }
+
 .about-us-picture {
-}
+  
+    }
+
 .about-us-pic-and-par {
   display: flex;
   flex-direction: column;
