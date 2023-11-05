@@ -5,7 +5,6 @@
 .ourcourses{
     /* display: flex; */
     width: 335px;
-    height: 398px;
     justify-content: center;
     align-items: flex-start;
     gap: 20px;
