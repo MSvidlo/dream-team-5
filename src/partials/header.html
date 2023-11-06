@@ -30,10 +30,14 @@
 
         <a class="header-icon-camera" href="#Sign"
           ><svg width="16" height="16" class="header-icon-second">
-            <use href="./image/icons.svg#icon-camera"></use></svg
-        ></a>
+            <use href="./image/icons.svg#icon-camera"></use></svg>
+          </a>
 
-        <button type="button" class="header-icon-btn">
+        <button type="button" 
+        class="header-icon-btn menu-toggle js-open-menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        data-modal-open>
           <svg width="32" height="22" class="header-icon-third">
             <use href="./image/icons.svg#icon-Nav"></use>
           </svg>
@@ -46,3 +50,36 @@
     </div>
   </header>
 </div>
+
+
+ <!-- Mobile-menu window -->
+ <div class="backdrop is-hidden" data-modal>
+      <div class="menu-container js-menu-container">
+        <button class="menu-close js-close-menu" data-modal-close>
+          <svg class="menu-close-svg" width="32" height="32">
+            <use href="../image/icons.svg#icon-x-close"></use>
+          </svg>
+        </button>
+
+        <ul class="header-mob-list">
+          <li class="header-mob-item">
+            <a class="header-mob-link current" href="#About">About us</a>
+          </li>
+          <li class="header-mob-item">
+            <a class="header-mob-link" href="#courses">Our courses</a>
+          </li>
+          <li class="header-mob-item">
+            <a class="header-mob-link" href="#mentors">Our mentors</a>
+          </li>
+          <li class="header-mob-item">
+            <a class="header-mob-link" href="#Reviews">Reviews</a>
+          </li>
+          <li class="header-mob-item">
+            <a class="header-mob-link" href="#contacts">contacts</a>
+          </li>
+        </ul>
+
+        
+      </div>
+      </div>
+    </div>
