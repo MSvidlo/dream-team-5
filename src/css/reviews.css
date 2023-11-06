@@ -10,6 +10,8 @@ div {
 
 .reviews-container {
     width: 100%;
+    padding-top:80px ;
+    padding-bottom: 80px;
 }
 
 .reviews-header {
@@ -101,12 +103,15 @@ div {
     .reviews-container {
         max-width: 335px;
         margin: 0 auto;
+        
     }
 }
 
 @media screen and (min-width: 768px) {
     .reviews-container {
         max-width: 704px;
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
 
     .reviews-box {
@@ -149,6 +154,8 @@ div {
 @media screen and (min-width: 1280px) {
     .reviews-container {
         max-width: 1080px;
+        padding-top: 150px;
+        padding-bottom: 150px;
     }
 
     .reviews-box-wrapper {
@@ -171,6 +178,8 @@ div {
 
 @media screen and (min-width: 1440px) {
     .reviews-container {
+        padding-top:150px;
+        padding-bottom: 150px;
         max-width: 1240px;
     }
 
