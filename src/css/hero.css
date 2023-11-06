@@ -114,7 +114,7 @@
     margin-bottom: 136px;
   }
 }
-
+.photo-a{width:109px;}
 .hero-title {
   margin-bottom: 20px;
   font-size: 40px;
@@ -224,6 +224,8 @@
   width: 18px;
 }
 .hero-icon-star {
+  width: 20px;
+  height: 20px;
   border-radius: 100px;
   padding: 12px;
   background: var(--brown);
@@ -242,19 +244,20 @@
 }
 .star-icon {
   display: flex;
-  row-gap: 4px;
-  flex-wrap: wrap;
-  column-gap: 40px;
+   gap: 40px;
 }
 
 @media screen and (min-width: 768px) {
   .star-icon {
-    column-gap: 10px;
+   
   }
+  .photo-a{display: flex;
+  gap:12px;
+width: 230px;}
 }
 @media screen and (min-width: 1280px) {
   .star-icon {
-    column-gap: 12px;
+   
   }
 }
 .hero-text-p12 {
