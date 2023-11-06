@@ -230,8 +230,8 @@ display: none;
 
 .header-icon-camera {
     background-color: var(--light-black);
-    width: 32px;
-    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
     border-radius: 50%;
     box-sizing: border-box;
     display: flex;
