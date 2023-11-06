@@ -68,20 +68,18 @@
 }
 
 .about-us-picture {
-  height: 209px;
-  width: 335px;
-
   border-radius: 1000px;
   background-color: var(--light-black);
   background-image: url(../image/about-us/about-us-mob.png);
   background-repeat: no-repeat;
+background-size: 335px 209px;
 }
 @media screen and (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .about-us-picture {
-    height: 418px;
-    width: 670px;
+    height: 209px;
+    width: 335px;
     background-image: url(../image/about-us/about-us-mob-2x.png);
   }
 }
@@ -133,16 +131,15 @@
     gap: 50px;
   }
   .about-us-picture {
-    width: 704px;
-    height: 340px;
-    background-image: url(../image/about-us/about-us-tab.png);
-  }
+     background-image: url(../image/about-us/about-us-tab.png);
+      background-size: 704px 340px;
+    }
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .about-us-picture {
-      width: 1408px;
-      height: 680px;
+      width: 704px;
+      height: 340px;
       background-image: url(../image/about-us/about-us-tab-2x.png);
     }
   }
@@ -165,20 +162,20 @@
   }
 
   .about-us-container {
-    padding: 150px 80px;
+    padding: 150px 0;
   }
 
   .about-us-picture {
-    width: 488px;
-    height: 260px;
+   
     background-image: url(../image/about-us/about-us-desk1200.png);
+    background-size: 488px 260px;
   }
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .about-us-picture {
-      width: 976px;
-      height: 520px;
+      width: 488px;
+      height: 260px;
       background-image: url(../image/about-us/about-us-desk1200-2x.png);
     }
   }
@@ -205,13 +202,14 @@
     width: 560px;
     height: 240px;
     background-image: url(../image/about-us/about-us-desk1440.png);
+   
   }
   @media screen and (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .about-us-picture {
-      width: 1120px;
-      height: 480px;
+      width: 560px;
+      height: 240px;
       background-image: url(../image/about-us/about-us-desk1440-2x.png);
     }
   }
