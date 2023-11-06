@@ -6,7 +6,8 @@
     color: #FFF;
     background-color: #121212;
     background-image: url(../image/footer/bg-footer-mob.png);
-    background-size: cover;   
+    background-size: cover;
+    border-top: 1px solid rgba(255, 255, 255, 0.20);
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 375px),
@@ -165,24 +166,20 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) {
     display: flex;
     flex-direction: row;
     max-width: 335px;
-
-}
-
-.footer-finish-list {
     font-family: DM Sans;
     font-size: 12px;
     line-height: 1.3;
 }
 
-.footer-finish-item {
+.footer-finish-list {
+    
 }
+
+.footer-finish-item {}
 
 .footer-finish-link {}
 
 .footer-finish-text {
-    font-family: DM Sans;
-    font-size: 12px;
-    line-height: 1.3;
     width: 116px;
     margin-left: auto;
 }
@@ -234,6 +231,12 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 
 .footer-finish {
     max-width: 768px;
+    font-size: 14px;
+}
+
+.footer-finish-text {
+    width: 134px;
+    margin-left: auto;
 }
 } 
 
