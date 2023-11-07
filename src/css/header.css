@@ -346,7 +346,7 @@ display: none;
 .menu-container {
   position: absolute;
   width: 218px;
-  height: 100vh;
+  height: 100%;
   top: 0;
   right: 0;
   background-color: var(--brown);
