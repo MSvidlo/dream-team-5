@@ -279,6 +279,7 @@
 
   }
 
+
     .header-tablet-btn {
         box-sizing: border-box;
         display: inline-flex;
@@ -349,7 +350,7 @@
 .menu-container {
   position: absolute;
   width: 218px;
-  height: 100vh;
+  height: 100%;
   top: 0;
   right: 0;
   background-color: var(--brown);
@@ -368,6 +369,10 @@
   padding: 0;
   top: 218px;
   left: 20px;
+  text-shadow: 1px 1px 2px var(--brown),
+  0 1px 2px var(--brown),
+  -1px 0 2px var(--brown),
+  0 -1px 2px var(--brown);
 }
 .menu-close {
   border: none;
