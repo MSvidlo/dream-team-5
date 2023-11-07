@@ -227,7 +227,8 @@ display: none;
 .header-nav-link:focus {
     color: var(--brown);
 }
-
+.header-icons{margin: 0 auto;
+display: flex;}
 .header-icon-camera {
     background-color: var(--light-black);
     min-width: 32px;
