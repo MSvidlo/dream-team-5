@@ -106,15 +106,17 @@
 }
 
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1080px;
-  }
+
+    .container {
+        max-width: 100%;
+    }
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1240px;
-  }
+    .container {
+        max-width: 100%;
+    }
+
 }
 
 .header-container {
@@ -274,16 +276,22 @@
   display: none;
 }
 @media screen and (min-width: 768px) {
-  .header-tablet-btn {
-    box-sizing: border-box;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 12px;
-    background-color: var(--white);
-    width: 186px;
-    height: 60px;
+
   }
+
+    .header-tablet-btn {
+        box-sizing: border-box;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        background-color: var(--white);
+        width: 186px;
+        height: 28px;
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+
 }
 @media screen and (min-width: 1280px) {
   .header-tablet-btn {
@@ -292,36 +300,48 @@
 }
 
 @media screen and (min-width: 768px) {
-  .tablet-btn {
-    background-color: transparent;
-    color: var(--black);
-    font-family: DM Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.5;
-    text-transform: uppercase;
-    border: none;
 
-    text-align: center;
-    width: 186px;
-    height: 60px;
-    box-sizing: border-box;
-  }
+    .tablet-btn {
+        background-color: transparent;
+        color: var(--black);
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.5;
+        text-transform: uppercase;
+                text-align: center;
+        width: 186px;
+        height: 28px;
+        padding-top: 28px;
+            padding-bottom: 28px;
+       
+    }
 }
 
 @media screen and (min-width: 768px) {
-  .tablet-btn:hover,
-  .tablet-btn:focus {
-    background-color: var(--light-black);
-    color: var(--brown);
-    border-radius: 12px;
-  }
+    .tablet-btn:hover,
+    .tablet-btn:focus {
+        background-color: var(--light-black);
+        color: var(--brown);
+        border-radius: 12px;
+        padding-top: 16px;
+            padding-bottom: 16px;
+            width: 238px;
+    }
 }
 @media screen and (min-width: 1280px) {
-  .tablet-btn {
-    width: 238px;
-  }
+    .tablet-btn {
+        width: 238px;
+        text-align: center;
+       height: 28px;}
+    .tablet-btn:hover,
+        .tablet-btn:focus {
+            background-color: var(--light-black);
+            color: var(--brown);
+            border-radius: 12px;}
+     
+ 
 }
 
 /* Mobile menu styles */
