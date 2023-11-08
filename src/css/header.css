@@ -89,12 +89,12 @@ width: 100%;
 margin: 0 auto;
 box-sizing: border-box;
 
-padding: initial;
+/* padding: initial; */
 }
 
 @media screen and (min-width: 375px){
     .container {
-        max-width: 100%;
+        max-width: 335px;
        
     }
 }
