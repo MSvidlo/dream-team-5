@@ -261,10 +261,10 @@
   }
 
   .about-us-picture {
-    width: 100%;
+    width: 560px;
     height: 240px;
     background-image: url(../image/about-us/about-us-desk1440.png);
-    background-size: cover;
+    background-size: 560px  240px;
 
   }
 
