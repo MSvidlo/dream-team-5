@@ -283,9 +283,7 @@ screen and (min-resolution: 2dppx) and (min-width: 1280px) {
     .footer-finish {
         max-width: 1080px;
     }
-        .footer-finish-text {
-            margin-left: auto;
-        }
+    .footer-finish-text{margin-left: auto;}
 }
 
 /* ==================MAX-DESKTOP============== */
