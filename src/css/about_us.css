@@ -71,7 +71,7 @@
   background-repeat: no-repeat;
   background-size: 335px 209px;
 }
-
+/* ================MOBIL============== */
 @media screen and (min-width:375px){
   .about-us-container {
       background-color: var(--black, #121212);
@@ -148,23 +148,8 @@
   font-weight: 400;
   width: 100%;
 }
-/* @media screen and (min-width: 375px){
-.about-us-picture {
-    width: 335px;
-    height: 260px;
-    background-image: url(../image/about-us/about-us-desk1200.png);
-    background-size: 335px 260px;
-  }
-@media screen and (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-  .about-us-picture {
-    width: 335px;
-    height: 340px;
-    background-image: url(../image/about-us/about-us-tab-2x.png);
-  }
-}
-} */
+
+/* =======================TABLET=================== */
 
 @media screen and (min-width: 768px) {
   .runline {
@@ -223,6 +208,8 @@
   }
 }
 
+/* =========================DESKTOP====================*/
+
 @media screen and (min-width: 1280px) {
   .runline {
     font-size: 59px;
@@ -266,6 +253,7 @@
     width: 264px;
   }
 }
+/* =========================DESKTOP-MAX====================*/
 
 @media screen and (min-width: 1440px) {
   .about-us-pic-and-par {
