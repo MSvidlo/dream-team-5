@@ -64,7 +64,7 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) {
     gap: 40px;
     text-transform: uppercase;
     font-size: 14px;
-    /* line-height: 2; */
+
 }
 
 .footer-social {
@@ -95,7 +95,12 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) {
 
 .footer-menu-item {}
 
-.footer-menu-link {}
+
+.footer-menu-link:hover,
+.footer-menu-link:active {
+    color: #BEA69E;
+    transition: color 250ms;
+}
 
 .footer-form-box {
 }
@@ -125,6 +130,7 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) {
     border: none;
     padding-left: 16px;
     box-sizing: border-box;
+    /* outline: transparent; */
 }
 
 .footer-input::placeholder {
@@ -134,7 +140,6 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) {
     font-style: normal;
     font-weight: 400;
     line-height: 1.3;
-    /* padding-left: 16px; */
 }
 
 .footer-button-form {
@@ -154,7 +159,13 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) {
     background: #1D1D1D;
     padding: 18px 17px 18px 16px;
     border: none;
+    transition: color 250ms;
+}
 
+.footer-btn:hover, 
+.footer-btn:active {
+    color: #121212;
+    background-color: #FFF;
 }
 
 .icon-btn-form {
@@ -181,7 +192,6 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) {
 
 .footer-finish-text {
     width: 116px;
-    /* margin-left: auto; */
 }
 
 /* ==============TAB============== */
