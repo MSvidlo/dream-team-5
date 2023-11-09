@@ -9,7 +9,9 @@
   margin-bottom: 80px;
   margin-top: 80px;
 }
-
+@media screen {
+  
+}
 .ourcourses-title {
   color: #fff;
   font-size: 28px;
@@ -83,12 +85,10 @@ ol {
   /* 128.571% */
   letter-spacing: -0.02em;
 }
-/* .ourcourses-num-icon{
-    position: relative;
-} */
+
 .review-icon {
   position: absolute;
-  left: 275px;
+  left: 212px;
   top: 28px;
   right: auto;
   flex-shrink: 0;
@@ -101,11 +101,21 @@ ol {
   padding: 6px;
   
 }
+.review-icon:hover{background-color: var(--brown, #BEA69E);
+}
+
+.review-icon:focus{
+  background-color: var(--brown, #BEA69E);
+}
 .rectangle-icon{display: block;
   max-width: 100%;
   height: auto;
 flex-shrink: 0;
 border: none;
+}
+
+.rectangle-icon:hover{
+  fill:#FFFFFF;
 }
 
 .ourcourses-subtitle {
@@ -131,7 +141,23 @@ border: none;
 @media screen and (min-width: 375px){
   .ourcourses {
       width: 335px;
+      
     }
+        .review-icon {
+          position: absolute;
+          left: 275px;
+          top: 28px;
+          right: auto;
+          flex-shrink: 0;
+          border-color: #1d1d1d;
+          border-radius: 50%;
+          background-color: #1d1d1d;
+          width: 32px;
+          height: 32px;
+          border: none;
+          padding: 6px;
+    
+        }
 }
 
 @media screen and (min-width: 768px) {

@@ -137,6 +137,9 @@ screen and (min-resolution: 2dppx) and (min-width: 375px) {
     /* padding-left: 16px; */
 }
 
+.footer-input{
+
+}
 .footer-button-form {
     width: 60px;
     height: 60px;
